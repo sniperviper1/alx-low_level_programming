@@ -3,7 +3,7 @@
 /**
  * main-Entry point
  *
- * Reutrn: Always 0 (Success)
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
@@ -20,3 +20,4 @@ printf("size of float is = %i byte\n", sizeof(float));
 printf("sizeof doible is = %i byte\n", sizeof(double));
 printf("sizeof long double is = %i byte\n\n\n", sizeof(long double));
 return (0);
+}

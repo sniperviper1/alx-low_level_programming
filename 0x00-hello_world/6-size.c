@@ -7,6 +7,8 @@
  */
 int main(void)
 {
+gcc 6-size.c -m32 -o size32 2> /tmp/32
+gcc 6-size.c -m64 -o size64 2> /tmp/64
 printf("sizeof char is = %i byte\n", sizeof(char));
 printf("sizeof signed char is = %i byte\n", sizeof(signed char));
 printf("sizeof unsigned char is = %i byte\n\n\n", sizeof(unsigned char));

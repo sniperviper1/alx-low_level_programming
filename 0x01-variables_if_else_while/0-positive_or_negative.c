@@ -3,9 +3,9 @@
 #include <stdio.h>
 
 /**
-* main -> assign a random number to the variable n each time it is executed and print out based a condition
-* Return: Always 0 (Success)
-*/
+ * main -> assign a random number to the variable n each time it is executed and print out based a condition
+ * Return: Always 0 (Success)
+ */
 int main(void)
 {
 int n;
@@ -16,6 +16,9 @@ if (n > 0)
 	printf("%d is positive\n", n);
 if (n = 0)
 	printf("%d is zero\n", n);
-if (
-	return (0);
+if (n < 0)
+{
+	printf("%d is negative\n", n);
+}
+return (0);
 }

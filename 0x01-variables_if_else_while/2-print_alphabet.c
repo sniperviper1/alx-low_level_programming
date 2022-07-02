@@ -6,12 +6,12 @@
  */
 int main(void)
 {
-	int ch;
-	for (ch = 97; ch = 122; ch++)
-	{
-		putchar(ch);
-	}
-	putchar(10); /* this is an ascii code for new line */
+char letter;
 
-	return (0);
+for (letter = 'a'; letter <= 'z'; letter++)
+putchar(letter)
+	
+putchar('\n');
+
+return (0);
 }

@@ -3,7 +3,11 @@
 #include <stdio.h>
 
 /**
- * main -> assign a random number to the variable n each time it is executed and print the last digit of the number stored in the variable n
+ * main - Entry point
+ *
+ * Description: 'assign a random number to the variable n each time
+ * it is executed and print the last digit
+ *
  * Return: Always 0 (Success)
  */
 int main(void)
@@ -13,20 +17,18 @@ int n;
 srand(time(0));
 n = rand() - RAND_MAX / 2;
 printf("Last digit of %d is ",n);
-if (n > 5)
+if ((n % 10) > 5)
 {
-	printf("greater than 5");
+printf("Last digit of %d is %d and is greater than 5\n", n, n % 10);
 }
-if (n == 0)
+else if ((n % 10) < 6 && (n % 10) != 0)
 {
-	printf("0");
+printf("Last digit of %d is %d and is less than 6 and not 0\n", n, n% 10);
 }
-if (n < 6 && n != 0)
+else
 {
-	printf("less than 6 and not 0");
+printf("Last digit of %d is %d and is 0\n", n, n % 10);
 }
-
-printf("\n");
 
 return (0);
 }

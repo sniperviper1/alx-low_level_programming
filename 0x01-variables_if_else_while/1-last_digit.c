@@ -16,18 +16,17 @@ int n;
 
 srand(time(0));
 n = rand() - RAND_MAX / 2;
-printf("Last digit of %d is n and is greater than ", n);
 if (n > 5)
 {
-printf("greater than 5");
+printf("%d is greater\n", n);
 }
-if  (n == 0)
+else if (n == 0)
 {
-printf("0");
+printf("%d is zero\n", n);
 }
 if (n < 0 && n != 0)
 {
-printf("less than 6 not 0");
+printf("%d negative\n", n);
 }
 
 printf("\n");

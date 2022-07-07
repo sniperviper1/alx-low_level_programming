@@ -2,7 +2,7 @@
 
 /**
 * main -> tests function that print if interger is negative or positive
-* Return; Always 0
+* Return: 0
 */
 int main(void)
 {

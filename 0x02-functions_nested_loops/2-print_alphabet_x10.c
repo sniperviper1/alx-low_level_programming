@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
-* print_alphabet_10x -> prints the lowercase aplphabet 10x
+* print_alphabet_x10 -> prints the lowercase aplphabet 10x
 */
 
-void print_alphabet_10x(void)
+void print_alphabet_x10(void)
 {
 int j;
 int x;

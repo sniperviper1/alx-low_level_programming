@@ -4,11 +4,11 @@
 #include <string.h>
 
 /**
-* _atoi - converts a sti=ring to integer
+* _atoi - converts a string to integer
 * @str: pointer to string to be converted
 * Return: converted string
 */
-int _atoi(char *s)
+int _atoi(char *str)
 {
 int sign = 1, base = 0, i = 0;
 

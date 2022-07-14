@@ -10,16 +10,6 @@
 */
 int _strcmp(char *s1, char *s2)
 {
-int result;
-result = strcmp(s1, s2);
-printf("strcmp(s1, s2) %d\n", result);
-{
-result = strcmp(s2, s1);
-printf("strcmp(s2, s1) %d\n", result);
-{
-result = strcmp(s1, s1);
-printf("strcmp(s1, s1) %d\n", result);
-}
+printf("%d\n", strcmp(s1, s2));
 return (0);
-}
 }

@@ -2,12 +2,12 @@
 
 /**
 * cap_string - capitalization
-* @x; string para
+* @x: string para
 * Return: Capitalizing version of the string
 */
 char *cap_string(char *x)
 {
-char spc[] = {39, 9, '\n', ',', ';', '.', '!', '?', '"', '(', ')', '{', '}'};
+char spc[] = {39, 9, '\n', '', ';', '.', '!', '?', '"', '(', ')', '{', '}'};
 int len = 13;
 int a = 0, i;
 

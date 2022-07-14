@@ -6,10 +6,12 @@
 * _strcmp - a function to compare two strings
 * @s1: first parameter
 * @s2: second parameter
-* Return: a character
+* Return: an integer
 */
 int _strcmp(char *s1, char *s2)
 {
-strcmp(s1, s2);
-return (0);
+int result;
+result = strcmp(s1, s2);
+printf("strcmp(s1, s2) %d\n", result);
+return (result);
 }

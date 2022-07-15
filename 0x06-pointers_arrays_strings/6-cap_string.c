@@ -2,8 +2,8 @@
 
 /**
 * cap_string - capitalization
-* @x: string param
-* Return: capitalized version of the string
+* @s: string input
+* Return: pointer to the dest
 */
 char *cap_string(char *s)
 {

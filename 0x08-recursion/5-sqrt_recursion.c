@@ -10,7 +10,7 @@ int sqrt_check(int g, int c)
 {
 	if (g * g == c)
 	return (g);
-	if (g * g < c)
+	if (g * g > c)
 	return (-1);
 	return (sqrt_check(g + 1, c));
 }

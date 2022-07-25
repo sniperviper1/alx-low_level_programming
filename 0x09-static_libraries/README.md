@@ -1,2 +1,3 @@
 0. A library is not a luxury but one of the necessities of life
-i. Create the static library libmy.a containing all the functions listed below:
+
+Create the static library libmy.a containing all the functions listed below:

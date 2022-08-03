@@ -1,1 +1,1 @@
-Now working on structure typedef
+structure
